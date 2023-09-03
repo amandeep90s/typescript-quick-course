@@ -1,6 +1,6 @@
 class Server {
-  port: number;
-  host: string;
+  private port: number;
+  private host: string;
 
   constructor(port, host) {
     this.port = port;
