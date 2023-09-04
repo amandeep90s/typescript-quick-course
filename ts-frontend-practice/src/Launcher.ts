@@ -1,3 +1,5 @@
+import { Router } from './Router';
+
 class Launcher {
   private router: Router = new Router();
 
