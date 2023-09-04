@@ -9,7 +9,7 @@ export class Server {
       res.write('Hello from TS server');
       res.end();
     }).listen(8080, () => {
-      console.log('Server started');
+      console.log('Server started at: http://localhost:8080');
     });
   }
 }
