@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "lib": ["DOM", "ES6"],
     "target": "ESNext",
     "rootDir": "src",
@@ -13,5 +14,6 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "strict": true
-  }
+  },
+  "exclude": ["decorators", "ts-frontend-practice", "ts-node-server"]
 }
